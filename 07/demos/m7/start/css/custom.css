@@ -15,3 +15,42 @@ body {
   background: transparent;
   border-top: 0px;
 }
+
+/* CSS customization: by default the carousel doesn't have a size; use utility classes for the slides for the slides to have a size and then it will show; the below code makes the carousel visible.  */
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+  /* Since positioning the image, we need to help out the caption */
+  .carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+  }
+  
+  /* Declare heights because of positioning of img element */
+  .carousel-item {
+    height: 40rem;
+    max-width: 100vw;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+
+  .welcome-carousel-image1{
+    box-shadow: inset 0 0 0 100vw rgba(0,0,0,0.3);
+    background-image:url('../images/carousel1.jpg');
+  }
+
+  .welcome-carousel-image2{
+    box-shadow: inset 0 0 0 100vw rgba(0,0,0,0.3);
+    background-image:url('../images/carousel2.jpg');
+  }
+
+  .welcome-carousel-image3{
+    box-shadow: inset 0 0 0 100vw rgba(0,0,0,0.3);
+    background-image:url('../images/carousel3.jpg');
+  }
+
+  .shopping-cart-offcanvas {
+    width: 500px;
+  }

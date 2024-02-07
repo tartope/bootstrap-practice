@@ -35,7 +35,7 @@
                             <a class="nav-link" href="seasonalpies.html">Pies</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="order.html">Order</a>
+                            <a class="nav-link" href="contact.html">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -45,6 +45,48 @@
     </header>
 
     <main class="container" role="main">
+        <!-- Carousel: -->
+        <div id="welcomeCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#welcomeCarousel" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Welcome 1"></button>
+                <button type="button" data-bs-target="#welcomeCarousel" data-bs-slide-to="1"
+                    aria-label="Welcome 2"></button>
+                <button type="button" data-bs-target="#welcomeCarousel" data-bs-slide-to="2"
+                    aria-label="Welcome 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item welcome-carousel-image1 active">
+                    <div class="carousel-caption">
+                        <h1>Welcome to Bethany's Pie Shop</h1>
+                        <p>Home to the best pies on the internet.</p>
+                    </div>
+                </div>
+                <div class="carousel-item welcome-carousel-image2">
+                    <div class="carousel-caption text-start">
+                        <h1>Discover our pie subscription</h1>
+                        <p>Our delicious pies delivered to your door. Every week.</p>
+                        <p><a class="btn btn-lg btn-primary" href="piesubscription.html" role="button">Sign up
+                                today</a></p>
+                    </div>
+                </div>
+                <div class="carousel-item welcome-carousel-image3">
+                    <div class="carousel-caption text-end">
+                        <h1>Browse the pies of summer.</h1>
+                        <p>Every season has its pies. Enjoy our summer fruit pies now.</p>
+                        <p><a class="btn btn-lg btn-primary" href="fruitpies.html" role="button">Fruit pies</a></p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#welcomeCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#welcomeCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
 
         <nav aria-label="breadcrumb" class="my-3 ms-3">
             <ol class="breadcrumb">
@@ -148,7 +190,11 @@
         </div>
     </main>
 
+    <!-- Bootstrap JS file reference: -->
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
